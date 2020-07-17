@@ -27,6 +27,7 @@ If you find this code useful in your research, please consider citing:
 
 2. Unzip dataset:
 ```
+mkdir ./dataset
 cd ./dataset
 unzip dataset-3dpr.zip
 ```
