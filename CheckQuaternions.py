@@ -76,5 +76,3 @@ def DrawQuaternions(gdt, pre, basepath, reload=False, ftype='', prefix=''):
     plt.plot(x_axis, gdt_quaternions_3.tolist(), 'r', pre_quaternions_3.tolist(), 'b', label='quaternions_3')
     plt.savefig(prefix_path + '_quaternions_3' + ftype + '.png', dpi = 120)
     #plt.show()
-    
-#DrawQuaternions(0, 0, reload=True)

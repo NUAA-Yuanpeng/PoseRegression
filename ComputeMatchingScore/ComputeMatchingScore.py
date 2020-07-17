@@ -10,16 +10,16 @@ from tqdm import tqdm
 from pyquaternion import Quaternion
 from sixd import load_sixd
 
-obj_dict = {'ape':'Ape2',               'benchviseblue':'Benchviseblue2',   'bowl':'Bowl2',             'camera':'Camera2', 
-            'can':'Can2',               'cat':'Cat2',                       'cup':'Cup2',               'drill':'Drill2', 
-            'duck':'Duck2',             'eggbox':'Eggbox2',                 'glue':'Glue2',             'holepuncher':'Holepuncher2', 
-            'iron':'Iron2',             'lamp':'Lamp2',                     'phone':'Phone2'}
+obj_dict = {'ape':'Ape',               'benchviseblue':'Benchviseblue',   'bowl':'Bowl',             'camera':'Camera', 
+            'can':'Can',               'cat':'Cat',                       'cup':'Cup',               'drill':'Drill', 
+            'duck':'Duck',             'eggbox':'Eggbox',                 'glue':'Glue',             'holepuncher':'Holepuncher', 
+            'iron':'Iron',             'lamp':'Lamp',                     'phone':'Phone'}
 # ,           'elephent':'Elephent',
 #            'bulldog':'My_Bulldog',     'mycat':'My_Cat',                     'dog':'My_Dog',             'leopard':'My_Leopard',     
 #            'pig':'My_Pig'
 #            }
 
-basedir = '../Images'
+basedir = '../dataset/Images'
 sequence = 0
 
 for key in obj_dict:
